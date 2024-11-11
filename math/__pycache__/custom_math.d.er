@@ -1,0 +1,33 @@
+##[pylyzer] failed /home/cindy/code/python-bth/cool/math/custom_math.py 1725809311 2565
+.sys = pyimport "sys"
+
+.types = pyimport "types"
+
+.inflect: Never
+
+.importlib = pyimport "importlib"
+
+.start: {1}
+.inflect_engine: Never
+.Math: ClassType
+.Math <: types.ModuleType
+.Math.__path__: Never
+.Math.val: Never
+.Math.__call__: (val: Obj, __path__: Obj) -> .Math
+.Math.__add__: (self: .Math, other: Obj) -> NotImplementedType
+.Math.__neg__: (self: .Math) -> Never
+.Math.__sub__: (self: .Math, other: Obj) -> NotImplementedType
+.Math.__mul__: (self: .Math, other: Obj) -> NotImplementedType
+.Math.__truediv__: (self: .Math, other: Obj) -> NotImplementedType
+.Math.__floordiv__: (self: .Math, other: Obj) -> NotImplementedType
+.Math.__mod__: (self: .Math, other: Obj) -> NotImplementedType
+.Math.__pow__: (self: .Math, other: Obj) -> NotImplementedType
+.Math.__eq__: (self: .Math, other: Obj) -> NotImplementedType
+.Math.__ne__: (self: .Math, other: Obj) -> NotImplementedType
+.Math.__lt__: (self: .Math, other: Obj) -> NotImplementedType
+.Math.__le__: (self: .Math, other: Obj) -> NotImplementedType
+.Math.__gt__: (self: .Math, other: Obj) -> NotImplementedType
+.Math.__ge__: (self: .Math, other: Obj) -> NotImplementedType
+
+
+
